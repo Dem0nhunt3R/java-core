@@ -7,6 +7,12 @@ import main.client.Client;
 import java.util.ArrayList;
 
 public class Main {
+//    Створити класи з полями
+//    Animal: кличка, вік, тип тварини
+//    Book: назва, кількість сторінок, жанр, дата випуску
+//    Client : ід, ім'я прізвище, телефон, пошта, замовлення(масив товарів, стрінгові назви)
+//    Створити масив з 10 об'єктів для кожного типу, вивести кожен елемент певного масиву через цикл. для кожного масиву свій цикл
+
     public static void main(String[] args) {
         ArrayList<Animal> animals = new ArrayList<>();
         ArrayList<Book> books = new ArrayList<>();
