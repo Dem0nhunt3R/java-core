@@ -1,16 +1,21 @@
-package main.book;
+package lesson1.homework;
+
+import java.util.Calendar;
 
 public class Book {
-    private String title;
+    private String  title;
     private int pagesNumber;
-    private String genre;
-    private String  releaseDate;
+    private String  genre;
+    private String date;
 
-    public Book(String title, int pagesNumber, String genre, String releaseDate) {
+    public Book() {
+    }
+
+    public Book(String title, int pagesNumber, String genre, String date) {
         this.title = title;
         this.pagesNumber = pagesNumber;
         this.genre = genre;
-        this.releaseDate = releaseDate;
+        this.date = date;
     }
 
     public String getTitle() {
@@ -37,12 +42,12 @@ public class Book {
         this.genre = genre;
     }
 
-    public String getReleaseDate() {
-        return releaseDate;
+    public String getDate() {
+        return date;
     }
 
-    public void setReleaseDate(String releaseDate) {
-        this.releaseDate = releaseDate;
+    public void setDate(String date) {
+        this.date = date;
     }
 
     @Override
@@ -51,7 +56,7 @@ public class Book {
                 "title='" + title + '\'' +
                 ", pagesNumber=" + pagesNumber +
                 ", genre='" + genre + '\'' +
-                ", releaseDate='" + releaseDate + '\'' +
+                ", date='" + date + '\'' +
                 '}';
     }
 }
