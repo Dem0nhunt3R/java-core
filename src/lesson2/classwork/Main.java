@@ -3,7 +3,39 @@ package lesson2.classwork;
 public class Main {
     public static void main(String[] args) {
 
-        PC pc = new PC(
+//        Описати наступну структуру:
+////        PC
+////        string model
+////        CPU cpu
+////        Motherboard motherboard
+////        Ram ram
+////        HardDrive hard
+////
+////        CPU
+////        string model
+////        int frequency
+////        int generation
+////        string producer
+////
+////        Motherboard
+////                model
+////        string producer
+////
+////        Ram
+////        int volume
+////        string producer
+////        string model
+////        int frequency
+////
+////        HardDrive
+////        string producer
+////        int volume
+////        enum Type (ssd / hdd)
+////
+////Делегувати до PC можливість зміни всіх характеристик складових частин (приклад: PC повинен мати методи які змінюють
+// volume в Ram, frequency в CPU і тд)
+
+                PC pc = new PC(
                 "model",
                 new CPU("CPU model", 1,1,"CPU producer"),
                 new Motherboard("motherboard model","motherboard producer"),
