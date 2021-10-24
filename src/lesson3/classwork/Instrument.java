@@ -1,4 +1,4 @@
-package lesson3.classwork.musicInstument;
+package lesson3.classwork;
 
 public interface Instrument {
     String play();
